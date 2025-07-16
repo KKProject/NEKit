@@ -11,12 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '0.15.0'
   s.summary          = 'A toolkit for Network Extension Framework.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 						A toolkit for Network Extension Framework.
                        DESC
@@ -30,9 +24,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.static_framework = true
   s.swift_version = '5.0'
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
 
-  s.source_files = 'NEKit/**/*'
+  s.source_files = 'src/**/*'
 
   s.frameworks = 'UIKit', 'NetworkExtension'
   s.dependency 'CocoaAsyncSocket', '~> 7.6.4'
