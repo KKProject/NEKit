@@ -1,5 +1,5 @@
 import Foundation
-import Sodium
+// import Sodium
 
 open class Libsodium {
     /// This must be accessed at least once before Libsodium is used.

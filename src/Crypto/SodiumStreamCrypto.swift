@@ -1,5 +1,5 @@
 import Foundation
-import Sodium
+// import Sodium
 
 open class SodiumStreamCrypto: StreamCryptoProtocol {
     public enum Alogrithm {
